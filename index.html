@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="weather.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="search-div">
+        <img src="location-dot-solid (1).svg" />
+        <input type="text" placeholder="Write City" />
+        <img src="magnifying-glass-solid (3).svg" class="search-icon" />
+      </div>
+      <div class="current-weather">
+        <div class="weather">
+          <img src="clear.png" />
+          <p class="temp">0 °C</p>
+          <p class="state">Clear and Sun</p>
+        </div>
+        <div class="info">
+          <div class="humidity">
+            <img src="water-solid.svg" alt="" />
+            <p>
+              59 Pascal<br />
+              Pressure
+            </p>
+          </div>
+          <div class="wind">
+            <img src="wind-solid.svg" alt="" />
+            <p>
+              0 Km/h <br />
+              Wind Speed
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="not-found">
+        <img src="404.png" alt="" />
+        <p>Opps ! Location not Found !</p>
+      </div>
+    </div>
+    <script src="weather.js"></script>
+  </body>
+</html>
